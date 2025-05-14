@@ -2,4 +2,4 @@
 
 Console.WriteLine("C# Udp Client Demo");
 Udp udp = new Udp();
-udp.Send();
+udp.Client();
