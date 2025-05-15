@@ -1,0 +1,15 @@
+/home/dev/Desktop/cs_source/ws_client/bin/Debug/net9.0/ws_client
+/home/dev/Desktop/cs_source/ws_client/bin/Debug/net9.0/ws_client.deps.json
+/home/dev/Desktop/cs_source/ws_client/bin/Debug/net9.0/ws_client.runtimeconfig.json
+/home/dev/Desktop/cs_source/ws_client/bin/Debug/net9.0/ws_client.dll
+/home/dev/Desktop/cs_source/ws_client/bin/Debug/net9.0/ws_client.pdb
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/ws_client.GeneratedMSBuildEditorConfig.editorconfig
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/ws_client.AssemblyInfoInputs.cache
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/ws_client.AssemblyInfo.cs
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/ws_client.csproj.CoreCompileInputs.cache
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/ws_client.sourcelink.json
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/ws_client.dll
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/refint/ws_client.dll
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/ws_client.pdb
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/ws_client.genruntimeconfig.cache
+/home/dev/Desktop/cs_source/ws_client/obj/Debug/net9.0/ref/ws_client.dll

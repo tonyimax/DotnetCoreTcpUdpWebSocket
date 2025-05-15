@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "wBegzjdPAGk=",
+  "success": true,
+  "projectFilePath": "/home/dev/Desktop/cs_source/mq_server/mq_server.csproj",
+  "expectedPackageFiles": [
+    "/home/dev/.nuget/packages/microsoft.dotnet.ilcompiler/9.0.4/microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512",
+    "/home/dev/.nuget/packages/microsoft.net.illink.tasks/9.0.4/microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
+    "/home/dev/.nuget/packages/mqttnet/5.0.1.1416/mqttnet.5.0.1.1416.nupkg.sha512",
+    "/home/dev/.nuget/packages/mqttnet.server/5.0.1.1416/mqttnet.server.5.0.1.1416.nupkg.sha512",
+    "/home/dev/.nuget/packages/runtime.linux-x64.microsoft.dotnet.ilcompiler/9.0.4/runtime.linux-x64.microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
