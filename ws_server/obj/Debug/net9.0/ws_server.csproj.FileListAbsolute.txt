@@ -17,3 +17,4 @@
 /home/dev/Desktop/cs_source/ws_server/obj/Debug/net9.0/ws_server.pdb
 /home/dev/Desktop/cs_source/ws_server/obj/Debug/net9.0/ws_server.genruntimeconfig.cache
 /home/dev/Desktop/cs_source/ws_server/obj/Debug/net9.0/ref/ws_server.dll
+/home/dev/Desktop/cs_source/ws_server/bin/Debug/net9.0/MQTTnet.dll

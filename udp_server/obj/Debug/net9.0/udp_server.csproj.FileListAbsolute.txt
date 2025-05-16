@@ -17,3 +17,4 @@
 /home/dev/Desktop/cs_source/udp_server/obj/Debug/net9.0/udp_server.pdb
 /home/dev/Desktop/cs_source/udp_server/obj/Debug/net9.0/udp_server.genruntimeconfig.cache
 /home/dev/Desktop/cs_source/udp_server/obj/Debug/net9.0/ref/udp_server.dll
+/home/dev/Desktop/cs_source/udp_server/bin/Debug/net9.0/MQTTnet.dll

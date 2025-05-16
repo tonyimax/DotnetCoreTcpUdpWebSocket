@@ -8,7 +8,7 @@
           "build/Microsoft.DotNet.ILCompiler.props": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.4": {
+      "Microsoft.NET.ILLink.Tasks/9.0.5": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -70,10 +70,10 @@
         "tools/netstandard/ILCompiler.Build.Tasks.dll"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.4": {
-      "sha512": "COASxw5fnAVMuZBv8d76rMS65MbvKqlKkLayoMM1XByNyPok/wme3iwMj0UC3kcrdZo72OrHZ/Hk5Dq7JPvEYQ==",
+    "Microsoft.NET.ILLink.Tasks/9.0.5": {
+      "sha512": "02x2ZLZMVVnBuCMG8HFxZo7uynix/xIgfsSVOOLMmdavzjM5SDmzf1arRbqanYu3TPRcVVjJhIvajKUSZva7Lg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.4",
+      "path": "microsoft.net.illink.tasks/9.0.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -86,7 +86,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.5.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net9.0/ILLink.Tasks.deps.json",
         "tools/net9.0/ILLink.Tasks.dll",
@@ -127,7 +127,7 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.DotNet.ILCompiler >= 9.0.4",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.4",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.5",
       "net_conn >= 1.0.0"
     ]
   },
@@ -188,7 +188,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.4, )",
+            "version": "[9.0.5, )",
             "autoReferenced": true
           }
         },
@@ -214,7 +214,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.106/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

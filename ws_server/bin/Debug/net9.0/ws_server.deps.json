@@ -9,7 +9,7 @@
       "ws_server/1.0.0": {
         "dependencies": {
           "Microsoft.DotNet.ILCompiler": "9.0.4",
-          "Microsoft.NET.ILLink.Tasks": "9.0.4",
+          "Microsoft.NET.ILLink.Tasks": "9.0.5",
           "net_conn": "1.0.0"
         },
         "runtime": {
@@ -17,8 +17,19 @@
         }
       },
       "Microsoft.DotNet.ILCompiler/9.0.4": {},
-      "Microsoft.NET.ILLink.Tasks/9.0.4": {},
+      "Microsoft.NET.ILLink.Tasks/9.0.5": {},
+      "MQTTnet/5.0.1.1416": {
+        "runtime": {
+          "lib/net8.0/MQTTnet.dll": {
+            "assemblyVersion": "5.0.1.1416",
+            "fileVersion": "5.0.1.1416"
+          }
+        }
+      },
       "net_conn/1.0.0": {
+        "dependencies": {
+          "MQTTnet": "5.0.1.1416"
+        },
         "runtime": {
           "net_conn.dll": {
             "assemblyVersion": "1.0.0",
@@ -41,12 +52,19 @@
       "path": "microsoft.dotnet.ilcompiler/9.0.4",
       "hashPath": "microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512"
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.4": {
+    "Microsoft.NET.ILLink.Tasks/9.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-COASxw5fnAVMuZBv8d76rMS65MbvKqlKkLayoMM1XByNyPok/wme3iwMj0UC3kcrdZo72OrHZ/Hk5Dq7JPvEYQ==",
-      "path": "microsoft.net.illink.tasks/9.0.4",
-      "hashPath": "microsoft.net.illink.tasks.9.0.4.nupkg.sha512"
+      "sha512": "sha512-02x2ZLZMVVnBuCMG8HFxZo7uynix/xIgfsSVOOLMmdavzjM5SDmzf1arRbqanYu3TPRcVVjJhIvajKUSZva7Lg==",
+      "path": "microsoft.net.illink.tasks/9.0.5",
+      "hashPath": "microsoft.net.illink.tasks.9.0.5.nupkg.sha512"
+    },
+    "MQTTnet/5.0.1.1416": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ONYieEMaHiIei5dAtHXywnfJGhmrd5Av5sNJSQERp6AtZdPk3xxjCR6Cv0C5RUr/XbLeHO4/HQ0Rc2bQ5NF5Mw==",
+      "path": "mqttnet/5.0.1.1416",
+      "hashPath": "mqttnet.5.0.1.1416.nupkg.sha512"
     },
     "net_conn/1.0.0": {
       "type": "project",

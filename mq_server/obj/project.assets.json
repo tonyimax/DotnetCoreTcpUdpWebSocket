@@ -8,37 +8,21 @@
           "build/Microsoft.DotNet.ILCompiler.props": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.4": {
+      "Microsoft.NET.ILLink.Tasks/9.0.5": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
         }
       },
-      "MQTTnet/5.0.1.1416": {
+      "MQTTnet/4.3.3.952": {
         "type": "package",
         "compile": {
-          "lib/net8.0/MQTTnet.dll": {
+          "lib/net7.0/MQTTnet.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/MQTTnet.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "MQTTnet.Server/5.0.1.1416": {
-        "type": "package",
-        "dependencies": {
-          "MQTTnet": "5.0.1.1416"
-        },
-        "compile": {
-          "lib/net8.0/MQTTnet.Server.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/MQTTnet.Server.dll": {
+          "lib/net7.0/MQTTnet.dll": {
             "related": ".xml"
           }
         }
@@ -73,10 +57,10 @@
         "tools/netstandard/ILCompiler.Build.Tasks.dll"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.4": {
-      "sha512": "COASxw5fnAVMuZBv8d76rMS65MbvKqlKkLayoMM1XByNyPok/wme3iwMj0UC3kcrdZo72OrHZ/Hk5Dq7JPvEYQ==",
+    "Microsoft.NET.ILLink.Tasks/9.0.5": {
+      "sha512": "02x2ZLZMVVnBuCMG8HFxZo7uynix/xIgfsSVOOLMmdavzjM5SDmzf1arRbqanYu3TPRcVVjJhIvajKUSZva7Lg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.4",
+      "path": "microsoft.net.illink.tasks/9.0.5",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -89,7 +73,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.5.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net9.0/ILLink.Tasks.deps.json",
         "tools/net9.0/ILLink.Tasks.dll",
@@ -107,41 +91,47 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "MQTTnet/5.0.1.1416": {
-      "sha512": "ONYieEMaHiIei5dAtHXywnfJGhmrd5Av5sNJSQERp6AtZdPk3xxjCR6Cv0C5RUr/XbLeHO4/HQ0Rc2bQ5NF5Mw==",
+    "MQTTnet/4.3.3.952": {
+      "sha512": "6AFOGkdnqzIfvaPbTnPLYvBibBdGfJlTTWonIZp+VHpRy6fEl+KT9Z1AG1/4AaDAw5TJ0WpqCmrV9TVUWkLffg==",
       "type": "package",
-      "path": "mqttnet/5.0.1.1416",
+      "path": "mqttnet/4.3.3.952",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net8.0/MQTTnet.dll",
-        "lib/net8.0/MQTTnet.xml",
-        "mqttnet.5.0.1.1416.nupkg.sha512",
+        "lib/net452/MQTTnet.dll",
+        "lib/net452/MQTTnet.xml",
+        "lib/net461/MQTTnet.dll",
+        "lib/net461/MQTTnet.xml",
+        "lib/net48/MQTTnet.dll",
+        "lib/net48/MQTTnet.xml",
+        "lib/net5.0/MQTTnet.dll",
+        "lib/net5.0/MQTTnet.xml",
+        "lib/net6.0/MQTTnet.dll",
+        "lib/net6.0/MQTTnet.xml",
+        "lib/net7.0/MQTTnet.dll",
+        "lib/net7.0/MQTTnet.xml",
+        "lib/netcoreapp3.1/MQTTnet.dll",
+        "lib/netcoreapp3.1/MQTTnet.xml",
+        "lib/netstandard1.3/MQTTnet.dll",
+        "lib/netstandard1.3/MQTTnet.xml",
+        "lib/netstandard2.0/MQTTnet.dll",
+        "lib/netstandard2.0/MQTTnet.xml",
+        "lib/netstandard2.1/MQTTnet.dll",
+        "lib/netstandard2.1/MQTTnet.xml",
+        "lib/uap10.0.10240/MQTTnet.dll",
+        "lib/uap10.0.10240/MQTTnet.pri",
+        "lib/uap10.0.10240/MQTTnet.xml",
+        "mqttnet.4.3.3.952.nupkg.sha512",
         "mqttnet.nuspec",
-        "nuget.png"
-      ]
-    },
-    "MQTTnet.Server/5.0.1.1416": {
-      "sha512": "S17xbTitOKXEp+KMpIJgsLCRYVOqH+b8IF21+fqERI0zdiF5AqOfgXhI2Fmr4Ev8ftKoAUDfEEn8ckwo478i5Q==",
-      "type": "package",
-      "path": "mqttnet.server/5.0.1.1416",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net8.0/MQTTnet.Server.dll",
-        "lib/net8.0/MQTTnet.Server.xml",
-        "mqttnet.server.5.0.1.1416.nupkg.sha512",
-        "mqttnet.server.nuspec",
         "nuget.png"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "MQTTnet >= 5.0.1.1416",
-      "MQTTnet.Server >= 5.0.1.1416",
+      "MQTTnet >= 4.3.3.952",
       "Microsoft.DotNet.ILCompiler >= 9.0.4",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.4"
+      "Microsoft.NET.ILLink.Tasks >= 9.0.5"
     ]
   },
   "packageFolders": {
@@ -190,11 +180,7 @@
         "dependencies": {
           "MQTTnet": {
             "target": "Package",
-            "version": "[5.0.1.1416, )"
-          },
-          "MQTTnet.Server": {
-            "target": "Package",
-            "version": "[5.0.1.1416, )"
+            "version": "[4.3.3.952, )"
           },
           "Microsoft.DotNet.ILCompiler": {
             "suppressParent": "All",
@@ -205,7 +191,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.4, )",
+            "version": "[9.0.5, )",
             "autoReferenced": true
           }
         },
@@ -231,7 +217,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.105/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.106/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

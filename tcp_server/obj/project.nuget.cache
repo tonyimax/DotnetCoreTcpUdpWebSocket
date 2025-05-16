@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "A5oC1NEYf+4=",
+  "dgSpecHash": "vCVvs7q2D68=",
   "success": true,
   "projectFilePath": "/home/dev/Desktop/cs_source/tcp_server/tcp_server.csproj",
   "expectedPackageFiles": [
     "/home/dev/.nuget/packages/microsoft.dotnet.ilcompiler/9.0.4/microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512",
-    "/home/dev/.nuget/packages/microsoft.net.illink.tasks/9.0.4/microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
+    "/home/dev/.nuget/packages/microsoft.net.illink.tasks/9.0.5/microsoft.net.illink.tasks.9.0.5.nupkg.sha512",
     "/home/dev/.nuget/packages/mqttnet/5.0.1.1416/mqttnet.5.0.1.1416.nupkg.sha512",
     "/home/dev/.nuget/packages/runtime.linux-x64.microsoft.dotnet.ilcompiler/9.0.4/runtime.linux-x64.microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512"
   ],

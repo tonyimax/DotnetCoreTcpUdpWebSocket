@@ -17,3 +17,4 @@
 /home/dev/Desktop/cs_source/tcp_client/obj/Debug/net9.0/tcp_client.pdb
 /home/dev/Desktop/cs_source/tcp_client/obj/Debug/net9.0/tcp_client.genruntimeconfig.cache
 /home/dev/Desktop/cs_source/tcp_client/obj/Debug/net9.0/ref/tcp_client.dll
+/home/dev/Desktop/cs_source/tcp_client/bin/Debug/net9.0/MQTTnet.dll
