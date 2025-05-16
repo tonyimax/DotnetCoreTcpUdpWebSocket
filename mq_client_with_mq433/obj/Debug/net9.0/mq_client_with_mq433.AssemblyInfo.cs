@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mq_client_with_mq433")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43a9a7572da95b4a7196dc04027a5e9462e535b0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8ff238647f47f656557de6990989c11a19c1e96")]
 [assembly: System.Reflection.AssemblyProductAttribute("mq_client_with_mq433")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mq_client_with_mq433")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

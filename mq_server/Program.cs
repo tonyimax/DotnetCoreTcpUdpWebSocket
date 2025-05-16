@@ -5,6 +5,21 @@ using MQTTnet.Server;
 
 public class mqtt_server
 {
+    String _ip = "127.0.0.1";
+    int _port = 1883;
+
+    public string Ip
+    {
+        get => _ip;
+        set => _ip = value ?? throw new ArgumentNullException(nameof(value));
+    }
+
+    public int Port
+    {
+        get => _port;
+        set => _port = value;
+    }
+
     private MqttServer? _server;
     public event EventHandler<InterceptingPublishEventArgs>? OnMessageReceived;
     public event EventHandler<bool>? ServerStauts;
@@ -15,6 +30,8 @@ public class mqtt_server
     
     public Task StartMqtServer(string ip, int port) 
     { 
+        Ip = ip;
+        Port = port;
         MqttServerOptions mqtServerOptions = new MqttServerOptionsBuilder()                     
                .WithDefaultEndpoint()     
                .WithDefaultEndpointBoundIPAddress(System.Net.IPAddress.Parse(ip))
@@ -108,7 +125,7 @@ public class mqtt_server
         return Task.Run(() => 
         {
             ServerStauts?.Invoke(this, true); 
-            Console.WriteLine($"服务端【IP:Port】已启用MQT"); 
+            Console.WriteLine("服务端【{0}:{1}】已启用MQTT",Ip,Port); 
         });
     }
     
@@ -167,7 +184,13 @@ public class mqtt_server
     
     static async Task Main(string[] args)
     {
-        
+        mqtt_server s = new mqtt_server();
+        await s.StartMqtServer("0.0.0.0", 18883);
+        while (true)
+        {
+            Console.WriteLine("[{0}] mqtt_server running ...", DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss"));
+            Thread.Sleep(1000);
+        }
     }
 }
  
