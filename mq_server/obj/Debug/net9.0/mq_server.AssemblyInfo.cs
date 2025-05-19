@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mq_server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fabefe82d3191504c67f6d2bab39197189aaafc2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad845e2145340d675df45045f4a57e2ef769722e")]
 [assembly: System.Reflection.AssemblyProductAttribute("mq_server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mq_server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
