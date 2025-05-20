@@ -3,6 +3,11 @@
 /home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/udp_client.runtimeconfig.json
 /home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/udp_client.dll
 /home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/udp_client.pdb
+/home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/MQTTnet.dll
+/home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/ServiceStack.Common.dll
+/home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/ServiceStack.Interfaces.dll
+/home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/ServiceStack.Redis.dll
+/home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/ServiceStack.Text.dll
 /home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/net_conn.dll
 /home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/net_conn.pdb
 /home/dev/Desktop/cs_source/udp_client/obj/Debug/net9.0/udp_client.csproj.AssemblyReference.cache
@@ -17,4 +22,3 @@
 /home/dev/Desktop/cs_source/udp_client/obj/Debug/net9.0/udp_client.pdb
 /home/dev/Desktop/cs_source/udp_client/obj/Debug/net9.0/udp_client.genruntimeconfig.cache
 /home/dev/Desktop/cs_source/udp_client/obj/Debug/net9.0/ref/udp_client.dll
-/home/dev/Desktop/cs_source/udp_client/bin/Debug/net9.0/MQTTnet.dll

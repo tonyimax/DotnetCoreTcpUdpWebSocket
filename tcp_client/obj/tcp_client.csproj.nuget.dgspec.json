@@ -48,6 +48,10 @@
             "MQTTnet": {
               "target": "Package",
               "version": "[5.0.1.1416, )"
+            },
+            "ServiceStack.Redis": {
+              "target": "Package",
+              "version": "[8.8.0, )"
             }
           },
           "imports": [
