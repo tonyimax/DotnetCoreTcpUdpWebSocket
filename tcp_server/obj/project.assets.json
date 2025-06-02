@@ -2,22 +2,13 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "Microsoft.CSharp/4.7.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
-      "Microsoft.DotNet.ILCompiler/9.0.4": {
+      "Microsoft.DotNet.ILCompiler/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.DotNet.ILCompiler.props": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.5": {
+      "Microsoft.NET.ILLink.Tasks/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -36,100 +27,11 @@
           }
         }
       },
-      "ServiceStack.Common/8.8.0": {
-        "type": "package",
-        "dependencies": {
-          "ServiceStack.Interfaces": "8.8.0",
-          "ServiceStack.Text": "8.8.0",
-          "System.Memory": "4.6.0"
-        },
-        "compile": {
-          "lib/net8.0/ServiceStack.Common.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/ServiceStack.Common.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "ServiceStack.Interfaces/8.8.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/ServiceStack.Interfaces.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/ServiceStack.Interfaces.dll": {}
-        }
-      },
-      "ServiceStack.Redis/8.8.0": {
-        "type": "package",
-        "dependencies": {
-          "ServiceStack.Common": "8.8.0",
-          "ServiceStack.Interfaces": "8.8.0",
-          "ServiceStack.Text": "8.8.0"
-        },
-        "compile": {
-          "lib/net8.0/ServiceStack.Redis.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/ServiceStack.Redis.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "ServiceStack.Text/8.8.0": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.7.0",
-          "System.Diagnostics.DiagnosticSource": "8.0.0",
-          "System.Memory": "4.6.0"
-        },
-        "compile": {
-          "lib/net8.0/ServiceStack.Text.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/ServiceStack.Text.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "System.Diagnostics.DiagnosticSource/8.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
-        }
-      },
-      "System.Memory/4.6.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
       "net_conn/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "MQTTnet": "5.0.1.1416",
-          "ServiceStack.Redis": "8.8.0"
+          "MQTTnet": "5.0.1.1416"
         },
         "compile": {
           "bin/placeholder/net_conn.dll": {}
@@ -141,82 +43,14 @@
     }
   },
   "libraries": {
-    "Microsoft.CSharp/4.7.0": {
-      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+    "Microsoft.DotNet.ILCompiler/9.0.0": {
+      "sha512": "bbnlV2PbUmCQ8Ndpx0kJaicLyV28IU+4IzyctQLL57+DxrHurYr2qsJrC8+yD44Q0DyPfv2oM168c1Tk6Bxbmg==",
       "type": "package",
-      "path": "microsoft.csharp/4.7.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/netcore50/Microsoft.CSharp.dll",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.3/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.xml",
-        "lib/portable-net45+win8+wp8+wpa81/_._",
-        "lib/uap10.0.16299/_._",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.7.0.nupkg.sha512",
-        "microsoft.csharp.nuspec",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netcore50/Microsoft.CSharp.dll",
-        "ref/netcore50/Microsoft.CSharp.xml",
-        "ref/netcore50/de/Microsoft.CSharp.xml",
-        "ref/netcore50/es/Microsoft.CSharp.xml",
-        "ref/netcore50/fr/Microsoft.CSharp.xml",
-        "ref/netcore50/it/Microsoft.CSharp.xml",
-        "ref/netcore50/ja/Microsoft.CSharp.xml",
-        "ref/netcore50/ko/Microsoft.CSharp.xml",
-        "ref/netcore50/ru/Microsoft.CSharp.xml",
-        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
-        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.0/Microsoft.CSharp.dll",
-        "ref/netstandard1.0/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
-        "ref/netstandard2.0/Microsoft.CSharp.dll",
-        "ref/netstandard2.0/Microsoft.CSharp.xml",
-        "ref/portable-net45+win8+wp8+wpa81/_._",
-        "ref/uap10.0.16299/_._",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "Microsoft.DotNet.ILCompiler/9.0.4": {
-      "sha512": "Ja7dyruOhcyLogy574k3rAI9jtazszbUSEoEUvfxy5fhsMX94wIqeTTCF81rVJH/zzyUtErhCjqVEAbUCX5a/g==",
-      "type": "package",
-      "path": "microsoft.dotnet.ilcompiler/9.0.4",
+      "path": "microsoft.dotnet.ilcompiler/9.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -231,19 +65,21 @@
         "build/NativeAOT.natvis",
         "build/WindowsAPIs.txt",
         "build/findvcvarsall.bat",
-        "microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.9.0.0.nupkg.sha512",
         "microsoft.dotnet.ilcompiler.nuspec",
+        "runtime.json",
         "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
         "tools/netstandard/ILCompiler.Build.Tasks.dll"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.5": {
-      "sha512": "02x2ZLZMVVnBuCMG8HFxZo7uynix/xIgfsSVOOLMmdavzjM5SDmzf1arRbqanYu3TPRcVVjJhIvajKUSZva7Lg==",
+    "Microsoft.NET.ILLink.Tasks/9.0.0": {
+      "sha512": "zAwp213evC3UkimtVXRb+Dlgc/40QG145nmZDtp2LO9zJJMfrp+i/87BnXN7tRXEA4liyzdFkjqG1HE8/RPb4A==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.5",
+      "path": "microsoft.net.illink.tasks/9.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "Sdk/Sdk.props",
@@ -253,8 +89,24 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.5.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.0.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/ILLink.Tasks.dll.config",
+        "tools/net472/Mono.Cecil.Mdb.dll",
+        "tools/net472/Mono.Cecil.Pdb.dll",
+        "tools/net472/Mono.Cecil.Rocks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/Sdk/Sdk.props",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net472/build/Microsoft.NET.ILLink.targets",
         "tools/net9.0/ILLink.Tasks.deps.json",
         "tools/net9.0/ILLink.Tasks.dll",
         "tools/net9.0/Mono.Cecil.Mdb.dll",
@@ -285,127 +137,6 @@
         "nuget.png"
       ]
     },
-    "ServiceStack.Common/8.8.0": {
-      "sha512": "EqG4QpMX5dnwBuMlfMb6LtjyNFg/259u2A4Cmvw2Ohwvbn98ERiWYM6PwBDFteZ6LYvRKhcT1lRfYrTnSMvguA==",
-      "type": "package",
-      "path": "servicestack.common/8.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net472/ServiceStack.Common.dll",
-        "lib/net472/ServiceStack.Common.xml",
-        "lib/net6.0/ServiceStack.Common.dll",
-        "lib/net6.0/ServiceStack.Common.xml",
-        "lib/net8.0/ServiceStack.Common.dll",
-        "lib/net8.0/ServiceStack.Common.xml",
-        "lib/netstandard2.0/ServiceStack.Common.dll",
-        "lib/netstandard2.0/ServiceStack.Common.xml",
-        "servicestack.common.8.8.0.nupkg.sha512",
-        "servicestack.common.nuspec"
-      ]
-    },
-    "ServiceStack.Interfaces/8.8.0": {
-      "sha512": "s2riRv5pR5YmoKEcmxSjoZ6QQLNtAdveeG1j7C5ssBnPqUDjKboda5AnduN/UYvxdDoXwyQPwWgKP+1ZsQy7Tw==",
-      "type": "package",
-      "path": "servicestack.interfaces/8.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net472/ServiceStack.Interfaces.dll",
-        "lib/net6.0/ServiceStack.Interfaces.dll",
-        "lib/net8.0/ServiceStack.Interfaces.dll",
-        "lib/netstandard2.0/ServiceStack.Interfaces.dll",
-        "servicestack.interfaces.8.8.0.nupkg.sha512",
-        "servicestack.interfaces.nuspec"
-      ]
-    },
-    "ServiceStack.Redis/8.8.0": {
-      "sha512": "HYy3jVLvnWY3YCk9UK0b6mBnwE4Vy3YhsP4KTdE9C8mD2inNvgxUQQ/D9DQKh5T24ov4L/LH/BiQh3rv/0vsRg==",
-      "type": "package",
-      "path": "servicestack.redis/8.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net472/ServiceStack.Redis.dll",
-        "lib/net472/ServiceStack.Redis.xml",
-        "lib/net6.0/ServiceStack.Redis.dll",
-        "lib/net6.0/ServiceStack.Redis.xml",
-        "lib/net8.0/ServiceStack.Redis.dll",
-        "lib/net8.0/ServiceStack.Redis.xml",
-        "lib/netstandard2.0/ServiceStack.Redis.dll",
-        "lib/netstandard2.0/ServiceStack.Redis.xml",
-        "servicestack.redis.8.8.0.nupkg.sha512",
-        "servicestack.redis.nuspec"
-      ]
-    },
-    "ServiceStack.Text/8.8.0": {
-      "sha512": "r0C8wfCk3pAGSmzl4oVSjqbtEOPhhHYraH4KBAFWO7ixqKRkDzvRw86sTZ2FOaPUEhIvyfHY5gvTWJHo0C/agA==",
-      "type": "package",
-      "path": "servicestack.text/8.8.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net472/ServiceStack.Text.dll",
-        "lib/net472/ServiceStack.Text.xml",
-        "lib/net6.0/ServiceStack.Text.dll",
-        "lib/net6.0/ServiceStack.Text.xml",
-        "lib/net8.0/ServiceStack.Text.dll",
-        "lib/net8.0/ServiceStack.Text.xml",
-        "lib/netstandard2.0/ServiceStack.Text.dll",
-        "lib/netstandard2.0/ServiceStack.Text.xml",
-        "servicestack.text.8.8.0.nupkg.sha512",
-        "servicestack.text.nuspec"
-      ]
-    },
-    "System.Diagnostics.DiagnosticSource/8.0.0": {
-      "sha512": "c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ==",
-      "type": "package",
-      "path": "system.diagnostics.diagnosticsource/8.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.Diagnostics.DiagnosticSource.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/System.Diagnostics.DiagnosticSource.targets",
-        "lib/net462/System.Diagnostics.DiagnosticSource.dll",
-        "lib/net462/System.Diagnostics.DiagnosticSource.xml",
-        "lib/net6.0/System.Diagnostics.DiagnosticSource.dll",
-        "lib/net6.0/System.Diagnostics.DiagnosticSource.xml",
-        "lib/net7.0/System.Diagnostics.DiagnosticSource.dll",
-        "lib/net7.0/System.Diagnostics.DiagnosticSource.xml",
-        "lib/net8.0/System.Diagnostics.DiagnosticSource.dll",
-        "lib/net8.0/System.Diagnostics.DiagnosticSource.xml",
-        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.dll",
-        "lib/netstandard2.0/System.Diagnostics.DiagnosticSource.xml",
-        "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
-        "system.diagnostics.diagnosticsource.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
-    "System.Memory/4.6.0": {
-      "sha512": "OEkbBQoklHngJ8UD8ez2AERSk2g+/qpAaSWWCBFbpH727HxDq5ydVkuncBaKcKfwRqXGWx64dS6G1SUScMsitg==",
-      "type": "package",
-      "path": "system.memory/4.6.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "PACKAGE.md",
-        "buildTransitive/net461/System.Memory.targets",
-        "buildTransitive/net462/_._",
-        "lib/net462/System.Memory.dll",
-        "lib/net462/System.Memory.xml",
-        "lib/netcoreapp2.1/_._",
-        "lib/netstandard2.0/System.Memory.dll",
-        "lib/netstandard2.0/System.Memory.xml",
-        "system.memory.4.6.0.nupkg.sha512",
-        "system.memory.nuspec"
-      ]
-    },
     "net_conn/1.0.0": {
       "type": "project",
       "path": "../net_conn/net_conn.csproj",
@@ -414,39 +145,39 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.DotNet.ILCompiler >= 9.0.4",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.5",
+      "Microsoft.DotNet.ILCompiler >= 9.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0",
       "net_conn >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/home/dev/.nuget/packages/": {}
+    "/Users/dev/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dev/Desktop/cs_source/tcp_server/tcp_server.csproj",
+      "projectUniqueName": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/tcp_server/tcp_server.csproj",
       "projectName": "tcp_server",
-      "projectPath": "/home/dev/Desktop/cs_source/tcp_server/tcp_server.csproj",
-      "packagesPath": "/home/dev/.nuget/packages/",
-      "outputPath": "/home/dev/Desktop/cs_source/tcp_server/obj/",
+      "projectPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/tcp_server/tcp_server.csproj",
+      "packagesPath": "/Users/dev/.nuget/packages/",
+      "outputPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/tcp_server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dev/.nuget/NuGet/NuGet.Config"
+        "/Users/dev/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/home/dev/Desktop/cs_source/net_conn/net_conn.csproj": {
-              "projectPath": "/home/dev/Desktop/cs_source/net_conn/net_conn.csproj"
+            "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/net_conn/net_conn.csproj": {
+              "projectPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/net_conn/net_conn.csproj"
             }
           }
         }
@@ -459,7 +190,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -470,13 +201,13 @@
           "Microsoft.DotNet.ILCompiler": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.4, )",
+            "version": "[9.0.0, )",
             "autoReferenced": true
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.5, )",
+            "version": "[9.0.0, )",
             "autoReferenced": true
           }
         },
@@ -493,8 +224,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "runtime.linux-x64.Microsoft.DotNet.ILCompiler",
-            "version": "[9.0.4, 9.0.4]"
+            "name": "runtime.osx-x64.Microsoft.DotNet.ILCompiler",
+            "version": "[9.0.0, 9.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -502,8 +233,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.106/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Access to the path '/Users/dev/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/vuln_index.dat-new' is denied."
+    }
+  ]
 }

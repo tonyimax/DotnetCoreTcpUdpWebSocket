@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "Microsoft.DotNet.ILCompiler/9.0.4": {
+      "Microsoft.DotNet.ILCompiler/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.DotNet.ILCompiler.props": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.5": {
+      "Microsoft.NET.ILLink.Tasks/9.0.0": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -17,13 +17,14 @@
     }
   },
   "libraries": {
-    "Microsoft.DotNet.ILCompiler/9.0.4": {
-      "sha512": "Ja7dyruOhcyLogy574k3rAI9jtazszbUSEoEUvfxy5fhsMX94wIqeTTCF81rVJH/zzyUtErhCjqVEAbUCX5a/g==",
+    "Microsoft.DotNet.ILCompiler/9.0.0": {
+      "sha512": "bbnlV2PbUmCQ8Ndpx0kJaicLyV28IU+4IzyctQLL57+DxrHurYr2qsJrC8+yD44Q0DyPfv2oM168c1Tk6Bxbmg==",
       "type": "package",
-      "path": "microsoft.dotnet.ilcompiler/9.0.4",
+      "path": "microsoft.dotnet.ilcompiler/9.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
@@ -38,19 +39,21 @@
         "build/NativeAOT.natvis",
         "build/WindowsAPIs.txt",
         "build/findvcvarsall.bat",
-        "microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512",
+        "microsoft.dotnet.ilcompiler.9.0.0.nupkg.sha512",
         "microsoft.dotnet.ilcompiler.nuspec",
+        "runtime.json",
         "tools/netstandard/ILCompiler.Build.Tasks.deps.json",
         "tools/netstandard/ILCompiler.Build.Tasks.dll"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.5": {
-      "sha512": "02x2ZLZMVVnBuCMG8HFxZo7uynix/xIgfsSVOOLMmdavzjM5SDmzf1arRbqanYu3TPRcVVjJhIvajKUSZva7Lg==",
+    "Microsoft.NET.ILLink.Tasks/9.0.0": {
+      "sha512": "zAwp213evC3UkimtVXRb+Dlgc/40QG145nmZDtp2LO9zJJMfrp+i/87BnXN7tRXEA4liyzdFkjqG1HE8/RPb4A==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.5",
+      "path": "microsoft.net.illink.tasks/9.0.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "Sdk/Sdk.props",
@@ -60,8 +63,24 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.5.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.0.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
+        "tools/net472/ILLink.Tasks.dll",
+        "tools/net472/ILLink.Tasks.dll.config",
+        "tools/net472/Mono.Cecil.Mdb.dll",
+        "tools/net472/Mono.Cecil.Pdb.dll",
+        "tools/net472/Mono.Cecil.Rocks.dll",
+        "tools/net472/Mono.Cecil.dll",
+        "tools/net472/Sdk/Sdk.props",
+        "tools/net472/System.Buffers.dll",
+        "tools/net472/System.Collections.Immutable.dll",
+        "tools/net472/System.Memory.dll",
+        "tools/net472/System.Numerics.Vectors.dll",
+        "tools/net472/System.Reflection.Metadata.dll",
+        "tools/net472/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net472/build/Microsoft.NET.ILLink.Analyzers.props",
+        "tools/net472/build/Microsoft.NET.ILLink.Tasks.props",
+        "tools/net472/build/Microsoft.NET.ILLink.targets",
         "tools/net9.0/ILLink.Tasks.deps.json",
         "tools/net9.0/ILLink.Tasks.dll",
         "tools/net9.0/Mono.Cecil.Mdb.dll",
@@ -81,30 +100,30 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Microsoft.DotNet.ILCompiler >= 9.0.4",
-      "Microsoft.NET.ILLink.Tasks >= 9.0.5"
+      "Microsoft.DotNet.ILCompiler >= 9.0.0",
+      "Microsoft.NET.ILLink.Tasks >= 9.0.0"
     ]
   },
   "packageFolders": {
-    "/home/dev/.nuget/packages/": {}
+    "/Users/dev/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dev/Desktop/cs_source/ws_client/ws_client.csproj",
+      "projectUniqueName": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/ws_client.csproj",
       "projectName": "ws_client",
-      "projectPath": "/home/dev/Desktop/cs_source/ws_client/ws_client.csproj",
-      "packagesPath": "/home/dev/.nuget/packages/",
-      "outputPath": "/home/dev/Desktop/cs_source/ws_client/obj/",
+      "projectPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/ws_client.csproj",
+      "packagesPath": "/Users/dev/.nuget/packages/",
+      "outputPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dev/.nuget/NuGet/NuGet.Config"
+        "/Users/dev/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -121,7 +140,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -132,13 +151,13 @@
           "Microsoft.DotNet.ILCompiler": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.4, )",
+            "version": "[9.0.0, )",
             "autoReferenced": true
           },
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.5, )",
+            "version": "[9.0.0, )",
             "autoReferenced": true
           }
         },
@@ -155,8 +174,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "runtime.linux-x64.Microsoft.DotNet.ILCompiler",
-            "version": "[9.0.4, 9.0.4]"
+            "name": "runtime.osx-x64.Microsoft.DotNet.ILCompiler",
+            "version": "[9.0.0, 9.0.0]"
           }
         ],
         "frameworkReferences": {
@@ -164,8 +183,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.106/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Access to the path '/Users/dev/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/vuln_index.dat-new' is denied."
+    }
+  ]
 }
