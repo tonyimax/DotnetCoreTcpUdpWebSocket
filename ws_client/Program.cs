@@ -3,6 +3,8 @@ using System.Text;
 
 using (var client = new ClientWebSocket())
 {
+    Console.WriteLine($"作者:林宏权 博客: https://blog.csdn.net/fittec?type=blog  QQ:296863766");
+    Console.WriteLine($"C# WebSocket客户端示例");
     Uri uri = new Uri("ws://127.0.0.1:5000");
     await client.ConnectAsync(uri, CancellationToken.None);
     Console.WriteLine("WebSocket connected.");

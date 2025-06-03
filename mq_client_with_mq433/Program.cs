@@ -14,6 +14,8 @@ public class mqtt_client
     
     public void Start(string serverIp, int serverPort)
     {
+        Console.WriteLine($"作者:林宏权 博客: https://blog.csdn.net/fittec?type=blog  QQ:296863766");
+        Console.WriteLine($"C# Mqtt客户端示例（mqtt4.3.3）");
         _serverIp = serverIp; 
         _serverPort = serverPort;
         if (!string.IsNullOrEmpty(serverIp) & !string.IsNullOrWhiteSpace(serverIp) & serverPort > 0) 

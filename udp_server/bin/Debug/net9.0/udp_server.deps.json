@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "udp_server/1.0.0": {
         "dependencies": {
-          "Microsoft.DotNet.ILCompiler": "9.0.4",
-          "Microsoft.NET.ILLink.Tasks": "9.0.5",
+          "Microsoft.DotNet.ILCompiler": "9.0.0",
+          "Microsoft.NET.ILLink.Tasks": "9.0.0",
           "net_conn": "1.0.0"
         },
         "runtime": {
@@ -17,8 +17,8 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
-      "Microsoft.DotNet.ILCompiler/9.0.4": {},
-      "Microsoft.NET.ILLink.Tasks/9.0.5": {},
+      "Microsoft.DotNet.ILCompiler/9.0.0": {},
+      "Microsoft.NET.ILLink.Tasks/9.0.0": {},
       "MQTTnet/5.0.1.1416": {
         "runtime": {
           "lib/net8.0/MQTTnet.dll": {
@@ -103,19 +103,19 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
-    "Microsoft.DotNet.ILCompiler/9.0.4": {
+    "Microsoft.DotNet.ILCompiler/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ja7dyruOhcyLogy574k3rAI9jtazszbUSEoEUvfxy5fhsMX94wIqeTTCF81rVJH/zzyUtErhCjqVEAbUCX5a/g==",
-      "path": "microsoft.dotnet.ilcompiler/9.0.4",
-      "hashPath": "microsoft.dotnet.ilcompiler.9.0.4.nupkg.sha512"
+      "sha512": "sha512-bbnlV2PbUmCQ8Ndpx0kJaicLyV28IU+4IzyctQLL57+DxrHurYr2qsJrC8+yD44Q0DyPfv2oM168c1Tk6Bxbmg==",
+      "path": "microsoft.dotnet.ilcompiler/9.0.0",
+      "hashPath": "microsoft.dotnet.ilcompiler.9.0.0.nupkg.sha512"
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.5": {
+    "Microsoft.NET.ILLink.Tasks/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-02x2ZLZMVVnBuCMG8HFxZo7uynix/xIgfsSVOOLMmdavzjM5SDmzf1arRbqanYu3TPRcVVjJhIvajKUSZva7Lg==",
-      "path": "microsoft.net.illink.tasks/9.0.5",
-      "hashPath": "microsoft.net.illink.tasks.9.0.5.nupkg.sha512"
+      "sha512": "sha512-zAwp213evC3UkimtVXRb+Dlgc/40QG145nmZDtp2LO9zJJMfrp+i/87BnXN7tRXEA4liyzdFkjqG1HE8/RPb4A==",
+      "path": "microsoft.net.illink.tasks/9.0.0",
+      "hashPath": "microsoft.net.illink.tasks.9.0.0.nupkg.sha512"
     },
     "MQTTnet/5.0.1.1416": {
       "type": "package",

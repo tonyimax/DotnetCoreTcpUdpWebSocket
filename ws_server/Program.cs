@@ -1,5 +1,7 @@
 ﻿using net_conn;
-//new websocket server
+
+Console.WriteLine($"作者:林宏权 博客: https://blog.csdn.net/fittec?type=blog  QQ:296863766");
+Console.WriteLine($"C# WebSocket服务器示例");
 var server = new WebSocketServer();
 server.StartListening();
 Console.WriteLine("Press any key to exit...");

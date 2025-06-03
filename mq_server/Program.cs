@@ -30,6 +30,8 @@ public class mqtt_server
     
     public Task StartMqtServer(string ip, int port) 
     { 
+        Console.WriteLine($"作者:林宏权 博客: https://blog.csdn.net/fittec?type=blog  QQ:296863766");
+        Console.WriteLine($"C# Mqtt服务器示例");
         Ip = ip;
         Port = port;
         MqttServerOptions mqtServerOptions = new MqttServerOptionsBuilder()                     

@@ -1,0 +1,15 @@
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/bin/Debug/net9.0/ws_client
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/bin/Debug/net9.0/ws_client.deps.json
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/bin/Debug/net9.0/ws_client.runtimeconfig.json
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/bin/Debug/net9.0/ws_client.dll
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/bin/Debug/net9.0/ws_client.pdb
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/ws_client.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/ws_client.AssemblyInfoInputs.cache
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/ws_client.AssemblyInfo.cs
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/ws_client.csproj.CoreCompileInputs.cache
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/ws_client.sourcelink.json
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/ws_client.dll
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/refint/ws_client.dll
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/ws_client.pdb
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/ws_client.genruntimeconfig.cache
+/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/ws_client/obj/Debug/net9.0/ref/ws_client.dll
