@@ -5,7 +5,130 @@
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v9.0": {}
+    ".NETCoreApp,Version=v9.0": {
+      "Microsoft.CSharp/4.7.0": {},
+      "MQTTnet/5.0.1.1416": {
+        "runtime": {
+          "lib/net8.0/MQTTnet.dll": {
+            "assemblyVersion": "5.0.1.1416",
+            "fileVersion": "5.0.1.1416"
+          }
+        }
+      },
+      "ServiceStack.Common/8.8.0": {
+        "dependencies": {
+          "ServiceStack.Interfaces": "8.8.0",
+          "ServiceStack.Text": "8.8.0",
+          "System.Memory": "4.6.0"
+        },
+        "runtime": {
+          "lib/net8.0/ServiceStack.Common.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "8.8.0.0"
+          }
+        }
+      },
+      "ServiceStack.Interfaces/8.8.0": {
+        "runtime": {
+          "lib/net8.0/ServiceStack.Interfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "8.8.0.0"
+          }
+        }
+      },
+      "ServiceStack.Redis/8.8.0": {
+        "dependencies": {
+          "ServiceStack.Common": "8.8.0",
+          "ServiceStack.Interfaces": "8.8.0",
+          "ServiceStack.Text": "8.8.0"
+        },
+        "runtime": {
+          "lib/net8.0/ServiceStack.Redis.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "8.8.0.0"
+          }
+        }
+      },
+      "ServiceStack.Text/8.8.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.Diagnostics.DiagnosticSource": "8.0.0",
+          "System.Memory": "4.6.0"
+        },
+        "runtime": {
+          "lib/net8.0/ServiceStack.Text.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "8.8.0.0"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.Diagnostics.DiagnosticSource.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.Memory/4.6.0": {}
+    }
   },
-  "libraries": {}
+  "libraries": {
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "MQTTnet/5.0.1.1416": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ONYieEMaHiIei5dAtHXywnfJGhmrd5Av5sNJSQERp6AtZdPk3xxjCR6Cv0C5RUr/XbLeHO4/HQ0Rc2bQ5NF5Mw==",
+      "path": "mqttnet/5.0.1.1416",
+      "hashPath": "mqttnet.5.0.1.1416.nupkg.sha512"
+    },
+    "ServiceStack.Common/8.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EqG4QpMX5dnwBuMlfMb6LtjyNFg/259u2A4Cmvw2Ohwvbn98ERiWYM6PwBDFteZ6LYvRKhcT1lRfYrTnSMvguA==",
+      "path": "servicestack.common/8.8.0",
+      "hashPath": "servicestack.common.8.8.0.nupkg.sha512"
+    },
+    "ServiceStack.Interfaces/8.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-s2riRv5pR5YmoKEcmxSjoZ6QQLNtAdveeG1j7C5ssBnPqUDjKboda5AnduN/UYvxdDoXwyQPwWgKP+1ZsQy7Tw==",
+      "path": "servicestack.interfaces/8.8.0",
+      "hashPath": "servicestack.interfaces.8.8.0.nupkg.sha512"
+    },
+    "ServiceStack.Redis/8.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HYy3jVLvnWY3YCk9UK0b6mBnwE4Vy3YhsP4KTdE9C8mD2inNvgxUQQ/D9DQKh5T24ov4L/LH/BiQh3rv/0vsRg==",
+      "path": "servicestack.redis/8.8.0",
+      "hashPath": "servicestack.redis.8.8.0.nupkg.sha512"
+    },
+    "ServiceStack.Text/8.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r0C8wfCk3pAGSmzl4oVSjqbtEOPhhHYraH4KBAFWO7ixqKRkDzvRw86sTZ2FOaPUEhIvyfHY5gvTWJHo0C/agA==",
+      "path": "servicestack.text/8.8.0",
+      "hashPath": "servicestack.text.8.8.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c9xLpVz6PL9lp/djOWtk5KPDZq3cSYpmXoJQY524EOtuFl5z9ZtsotpsyrDW40U1DRnQSYvcPKEUV0X//u6gkQ==",
+      "path": "system.diagnostics.diagnosticsource/8.0.0",
+      "hashPath": "system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
+    },
+    "System.Memory/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OEkbBQoklHngJ8UD8ez2AERSk2g+/qpAaSWWCBFbpH727HxDq5ydVkuncBaKcKfwRqXGWx64dS6G1SUScMsitg==",
+      "path": "system.memory/4.6.0",
+      "hashPath": "system.memory.4.6.0.nupkg.sha512"
+    }
+  }
 }
