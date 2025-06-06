@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "doIJg3HUFCU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\TcpServerWinFormsApp\\TcpServerWinFormsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\5.0.1.1416\\mqttnet.5.0.1.1416.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\servicestack.common\\8.8.0\\servicestack.common.8.8.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\servicestack.interfaces\\8.8.0\\servicestack.interfaces.8.8.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\servicestack.redis\\8.8.0\\servicestack.redis.8.8.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\servicestack.text\\8.8.0\\servicestack.text.8.8.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.6.0\\system.memory.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

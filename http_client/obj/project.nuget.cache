@@ -1,24 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "9zUDcB4GW8w=",
+  "dgSpecHash": "kqe5fJ2lASs=",
   "success": true,
-  "projectFilePath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/http_client/http_client.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\http_client\\http_client.csproj",
   "expectedPackageFiles": [
-    "/Users/dev/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/mqttnet/5.0.1.1416/mqttnet.5.0.1.1416.nupkg.sha512",
-    "/Users/dev/.nuget/packages/servicestack.common/8.8.0/servicestack.common.8.8.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/servicestack.interfaces/8.8.0/servicestack.interfaces.8.8.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/servicestack.redis/8.8.0/servicestack.redis.8.8.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/servicestack.text/8.8.0/servicestack.text.8.8.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/system.memory/4.6.0/system.memory.4.6.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\5.0.1.1416\\mqttnet.5.0.1.1416.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\servicestack.common\\8.8.0\\servicestack.common.8.8.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\servicestack.interfaces\\8.8.0\\servicestack.interfaces.8.8.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\servicestack.redis\\8.8.0\\servicestack.redis.8.8.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\servicestack.text\\8.8.0\\servicestack.text.8.8.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.memory\\4.6.0\\system.memory.4.6.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Access to the path '/Users/dev/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/vuln_index.dat-new' is denied."
-    }
-  ]
+  "logs": []
 }

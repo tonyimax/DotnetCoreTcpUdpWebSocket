@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "tcp_client": {
+      "commandName": "Project",
+      "commandLineArgs": "106.52.84.138 59002"
+    }
+  }
+}

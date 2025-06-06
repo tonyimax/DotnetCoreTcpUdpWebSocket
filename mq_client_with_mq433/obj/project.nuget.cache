@@ -1,20 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5aZczgFoakc=",
+  "dgSpecHash": "CKcl+Mz1Vu8=",
   "success": true,
-  "projectFilePath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/mq_client_with_mq433/mq_client_with_mq433.csproj",
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\mq_client_with_mq433\\mq_client_with_mq433.csproj",
   "expectedPackageFiles": [
-    "/Users/dev/.nuget/packages/microsoft.dotnet.ilcompiler/9.0.0/microsoft.dotnet.ilcompiler.9.0.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/microsoft.net.illink.tasks/9.0.0/microsoft.net.illink.tasks.9.0.0.nupkg.sha512",
-    "/Users/dev/.nuget/packages/mqttnet/4.3.3.952/mqttnet.4.3.3.952.nupkg.sha512",
-    "/Users/dev/.nuget/packages/runtime.osx-x64.microsoft.dotnet.ilcompiler/9.0.0/runtime.osx-x64.microsoft.dotnet.ilcompiler.9.0.0.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\9.0.5\\microsoft.dotnet.ilcompiler.9.0.5.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.5\\microsoft.net.illink.tasks.9.0.5.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mqttnet\\4.3.3.952\\mqttnet.4.3.3.952.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\9.0.5\\runtime.win-x64.microsoft.dotnet.ilcompiler.9.0.5.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Access to the path '/Users/dev/.local/share/NuGet/http-cache/670c1461c29885f9aa22c281d8b7da90845b38e4$ps:_api.nuget.org_v3_index.json/vuln_index.dat-new' is denied."
-    }
-  ]
+  "logs": []
 }

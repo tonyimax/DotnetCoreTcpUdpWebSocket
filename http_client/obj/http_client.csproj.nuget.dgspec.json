@@ -1,34 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/http_client/http_client.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\http_client\\http_client.csproj": {}
   },
   "projects": {
-    "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/http_client/http_client.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\http_client\\http_client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/http_client/http_client.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\http_client\\http_client.csproj",
         "projectName": "http_client",
-        "projectPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/http_client/http_client.csproj",
-        "packagesPath": "/Users/dev/.nuget/packages/",
-        "outputPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/http_client/obj/",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\http_client\\http_client.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\http_client\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/dev/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/net_conn/net_conn.csproj": {
-                "projectPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/net_conn/net_conn.csproj"
+              "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\net_conn\\net_conn.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\net_conn\\net_conn.csproj"
               }
             }
           }
@@ -41,9 +47,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -64,27 +70,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/net_conn/net_conn.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\net_conn\\net_conn.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/net_conn/net_conn.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\net_conn\\net_conn.csproj",
         "projectName": "net_conn",
-        "projectPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/net_conn/net_conn.csproj",
-        "packagesPath": "/Users/dev/.nuget/packages/",
-        "outputPath": "/Users/dev/Desktop/DotnetCoreTcpUdpWebSocket/net_conn/obj/",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\net_conn\\net_conn.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\DotnetCoreTcpUdpWebSocket\\net_conn\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/dev/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -101,9 +113,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -134,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
